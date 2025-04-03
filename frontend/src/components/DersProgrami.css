@@ -1,0 +1,125 @@
+/* Genel Sayfa Stili */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f5f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ana Konteyner */
+div {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+}
+
+/* Başlık */
+h2 {
+    text-align: center;
+    color: #34495e;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Form Stili */
+form {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input[type="text"],
+select,
+input[type="time"] {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+input[type="text"]:focus,
+select:focus,
+input[type="time"]:focus {
+    border-color: #2980b9;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Buton Stili */
+button {
+    padding: 14px 24px;
+    background-color: #2980b9;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #3498db;
+    transform: scale(1.05);
+}
+
+/* Liste Stili */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ecf0f1;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #34495e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:nth-child(odd) {
+    background-color: #ecf0f1;
+}
+
+li:hover {
+    background-color: #dfe6e9;
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #e74c3c;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+/* Bilgilendirme Mesajı */
+li span {
+    color: #95a5a6;
+    font-size: 0.9rem;
+}
